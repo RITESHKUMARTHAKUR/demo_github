@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/images/github-mark.svg" type="image/svg">
+    <link rel="stylesheet" href="styles.css">
+    <title>Github Demo</title>
+</head>
+<body>
+    <div class="name-container">
+        <div class="input-group">
+            <input onchange="search_names()" type="text" id="searchbar" placeholder="your name...">
+            <button onclick="search_names()">submit</button>
+        </div>
+        <div class="names-display" id="names-display">
+        </div>
+    </div>
+</body>
+<script src="/script.js"></script>
+</html>
