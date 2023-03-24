@@ -1,4 +1,4 @@
-let names = ["Ritesh","Ankit"]
+let names = ["Ritesh","Ankit","Yukti"]
 let namesDisplay = document.getElementById("names-display");
 names.map( (name) => {
     let contentDiv = document.createElement('div');
