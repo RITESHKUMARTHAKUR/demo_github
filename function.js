@@ -1,1 +1,0 @@
-Here is function from master branch;
