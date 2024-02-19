@@ -18,7 +18,7 @@ git merge <branch name>
 
 - Push your changes to a `specific branch` other than master.
 
-    ```json
+    ```code
     git add .
     git commit -m "commit name with double quote"
     git push
