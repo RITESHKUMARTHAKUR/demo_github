@@ -1,1 +1,7 @@
-Test Project for github master changes
+Pull a new branch from github repo to your computer 
+1    git pull origin <branch name>
+2    git checkout <branch name>
+
+
+Pull changes from other branch to your branch 
+1   git merge <branch name>
