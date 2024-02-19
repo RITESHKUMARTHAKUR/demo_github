@@ -1,1 +1,11 @@
 Changes from dev_ritesh
+
+Steps to Merge a branch changes to master branch
+1   Push your changes to specific branch other than master.
+    git add .
+    git commit -m "commit name with double quote"
+    git push
+
+2   Move to github (a create pull request button appears) create a pull request to master branch.
+3   After Review the repo admin merge your branch changes to the master branch.
+4   If any changes to be made again push the changes to your banch this time create pull request is not nessesory (as the previous pull request is not merged).
